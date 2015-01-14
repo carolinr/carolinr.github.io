@@ -1,45 +1,45 @@
-Tessellate by HTML5 UP
-html5up.net | @n33co
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+Worthy - Free Bootstrap Template
 
+Worhty is a Multipurpose One Page Template based on Bootstrap 3 Framework. 
+You can use it for corporate, business and agency webpages as well as 
+portfolio and personal webpages.
 
-This is Tessellate, a brand new responsive site template by AJ (aka n33) for HTML5 UP.
-It's a single pager (a format I'm pretty into right now), has styling for a crapload
-of basic elements, and includes a handy "dark" modifier class to flip a given element
-to a light-on-dark color scheme.
+If you like the template and find it useful, please help us spread the word :-)
 
-Demo images* courtesy of Felicia Simion, a highly creative photographer/artist
-friend of mine over at deviantART. See more of her incredible work here:
+Theme version: v1.0
+Release Date: 13 Nov 2014
+Author: HtmlCoder (http://htmlcoder.me)
+Contact: http://htmlcoder.me/contact
 
-http://ineedchemicalx.deviantart.com/
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
 
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Felicia's work without her explicit permission!)
-
-AJ
-n33.co @n33co dribbble.com/n33
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+THE SOFTWARE.
 
 
 Credits:
+=======================================================================
 
-	Demo Images:
-		Felicia Simion (ineedchemicalx.deviantart.com)
-			"Look for the bare necessities of life" (ineedchemicalx.deviantart.com/art/Look-for-the-bare-necessities-of-life-402262777)
-			"You and I collide" (ineedchemicalx.deviantart.com/art/You-and-I-collide-401457901)
-			"Emperor of the Stars" (ineedchemicalx.deviantart.com/art/Emperor-of-the-Stars-370265193)
-			"Sherlockin" (ineedchemicalx.deviantart.com/art/Sherlockin-369847236)
-			"A breath of Hope" (ineedchemicalx.deviantart.com/art/A-breath-of-Hope-366359145)
-			"The Pursuit" (ineedchemicalx.deviantart.com/art/The-Pursuit-355003425)
-			"Cherish" (ineedchemicalx.deviantart.com/art/Cherish-320041163)
-			"Mind is a clear stage" (ineedchemicalx.deviantart.com/art/Mind-is-a-clear-stage-375431607)
-		
-	Icons:
-		Font Awesome (fortawesome.github.com/Font-Awesome)
+Demo images
+------------------------------------------------------
+Unsplash by Crew - http://unsplash.com/
 
-	Other:
-		jQuery (jquery.com)
-		html5shiv.js (@afarkas @jdalton @jon_neal @rem)
-		CSS3 Pie (css3pie.com)
-		background-size polyfill (github.com/louisremi)
-		jquery.scrolly (n33.co)
-		skel (n33.co)
+Fonts
+------------------------------------------------------
+Font Awesome by Dave Gandy - http://fortawesome.github.io/Font-Awesome/
+Google Fonts - http://www.google.com/fonts
+
+Resources
+------------------------------------------------------
+Bootstrap Framework by @mdo and @fat - http://getbootstrap.com/
+jQuery - https://jquery.org/
+jQuery Appear - by bas2k - https://github.com/bas2k/jquery.appear/
+Modernizr - http://modernizr.com/
+Animate CSS by Daniel T. Eden - http://daneden.github.io/animate.css/
+Isotope Jquery plugin by metafizzy.co - http://isotope.metafizzy.co/
+Backstrech by Scott Robbin - http://srobbin.com/jquery-plugins/backstretch/

@@ -1,5 +1,5 @@
 /*
-	Tessellate by HTML5 UP
+	Telephasic by HTML5 UP
 	html5up.net | @n33co
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -9,11 +9,40 @@
 	skel.init({
 		reset: 'full',
 		breakpoints: {
-			'global': { range: '*', href: 'css/style.css', containers: 1360, grid: { gutters: 50 } },
-			'wide': { range: '-1680', href: 'css/style-wide.css', containers: 1200, grid: { gutters: 40 } },
-			'normal': { range: '-1280', href: 'css/style-normal.css', containers: 960, grid: { gutters: 30 } },
-			'narrow': { range: '-1000', href: 'css/style-narrow.css', containers: '100%!', grid: { gutters: 25, collapse: true } },
-			'mobile': { range: '-736', href: 'css/style-mobile.css', grid: { gutters: 20 }, viewport: { scalable: false } }
+			'global': { range: '*', href: 'css/style.css', containers: 1200, grid: { gutters: 50 } },
+			'normal': { range: '-1280', href: 'css/style-normal.css', containers: 960, grid: { gutters: 40 } },
+			'narrow': { range: '-1080', href: 'css/style-narrow.css', containers: '100%' },
+			'narrower': { range: '-820', href: 'css/style-narrower.css', containers: '100%!', grid: { gutters: 30 } },
+			'mobile': { range: '-736', href: 'css/style-mobile.css', viewport: { scalable: false } },
+			'mobilep': { range: '-480', href: 'css/style-mobilep.css', grid: { gutters: 20 } }
+		},
+		plugins: {
+			layers: {
+				config: {
+					mode: 'transform'
+				},
+				navPanel: {
+					hidden: true,
+					breakpoints: 'mobile',
+					position: 'top-left',
+					side: 'top',
+					animation: 'pushY',
+					width: '100%',
+					height: { mobilep: 300, mobile: 180 },
+					clickToHide: true,
+					swipeToHide: false,
+					html: '<a href="index.html" class="link depth-0">Home</a><div data-action="navList" data-args="nav"></div>',
+					orientation: 'vertical'
+				},
+				navButton: {
+					breakpoints: 'mobile',
+					position: 'top-center',
+					side: 'top',
+					height: 50,
+					width: 100,
+					html: '<div class="toggle" data-action="toggleLayer" data-args="navPanel"></div>'
+				}
+			}
 		}
 	});
 
@@ -21,14 +50,14 @@
 
 		var	$window = $(window),
 			$body = $('body');
-			
+
 		// Disable animations/transitions until the page has loaded.
 			$body.addClass('is-loading');
-			
+
 			$window.on('load', function() {
 				$body.removeClass('is-loading');
 			});
-			
+
 		// Forms (IE<10).
 			var $form = $('form');
 			if ($form.length > 0) {
@@ -44,23 +73,19 @@
 					$form.n33_formerize();
 				}
 
-				// Custom select.
-					$form.find('.select select')
-						.on('focus', function() {
-							$(this).parent().addClass('focus');
-						})
-						.on('blur', function() {
-							$(this).parent().removeClass('focus');
-						});						
-
 			}
-			
+
 		// CSS polyfills (IE<9).
 			if (skel.vars.IEVersion < 9)
 				$(':last-child').addClass('last-child');
 
-		// Scrolly links.
-			$('.scrolly').scrolly();
+		// Dropdowns.
+			$('#nav > ul').dropotron({
+				mode: 'fade',
+				speed: 300,
+				alignment: 'center',
+				noOpenerFade: true
+			});
 
 	});
 

@@ -1,8 +1,0 @@
----
-layout: default
-img: phones.png
-category: Services
-title: Another one! |
-  <p class="lead">Rocking.</p>
-
----

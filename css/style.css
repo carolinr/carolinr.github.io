@@ -27,7 +27,7 @@
 	}
 
 	body, input, select, textarea {
-		font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Slab', serif;
 		color: #7c8081;
 		font-size: 15pt;
 		font-weight: 100;
@@ -62,7 +62,7 @@
 	}
 
 	h1, h2, h3, h4, h5 {
-		font-family: 'Roboto Slab', sans-serif;
+font-family: 'Roboto Slab', serif;
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.75em;
@@ -71,7 +71,7 @@
 	}
 
 		h6{
-		font-family: 'Roboto Slab', serif;
+font-family: 'Roboto Slab', serif;
 		color: inherit;
 		font-weight: 300;
 		line-height: 1.6em;

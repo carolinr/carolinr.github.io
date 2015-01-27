@@ -1,5 +1,5 @@
 @import url("font-awesome.min.css");
-@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700);
+@import url("http://fonts.googleapis.com/css?family=Roboto+Slab:400,300,100,700");
 @import url("http://fonts.googleapis.com/css?family=Droid+Sans:100,100italic,300,300italic,400,400italic");
 /*
 	Twenty by HTML5 UP
@@ -813,11 +813,11 @@ font-family: 'Roboto Slab', serif;
 	}
 
 		#banner .inner {
-			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
-			-o-animation: reveal-banner 1s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
-			animation: reveal-banner 1s 0.25s ease-in-out;
+			-moz-animation: reveal-banner 0.5s 0.25s ease-in-out;
+			-webkit-animation: reveal-banner 0.5s 0.25s ease-in-out;
+			-o-animation: reveal-banner 0.5s 0.25s ease-in-out;
+			-ms-animation: reveal-banner 0.5s 0.25s ease-in-out;
+			animation: reveal-banner 0.5s 0.25s ease-in-out;
 			-moz-animation-fill-mode: forwards;
 			-webkit-animation-fill-mode: forwards;
 			-o-animation-fill-mode: forwards;

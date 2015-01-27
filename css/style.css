@@ -1,5 +1,8 @@
 @import url("font-awesome.min.css");
-@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,300,500);
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100, 300, 400");
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:400,300,500");
+
+/* @import url("https://fonts.googleapis.com/css?family=Droid+Sans:100,100italic,300,300italic,400,400italic"); */
 /*
 	Twenty by HTML5 UP
 	html5up.net | @n33co
@@ -26,7 +29,7 @@
 	}
 
 	body, input, select, textarea {
-font-family: 'Ubuntu', sans-serif;
+		font-family: 'Roboto Slab', serif;
 		color: #7c8081;
 		font-size: 15pt;
 		font-weight: 100;
@@ -63,7 +66,7 @@ font-family: 'Ubuntu', sans-serif;
 	h1, h2, h3, h4, h5 {
 font-family: 'Ubuntu', sans-serif;
 		color: inherit;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.75em;
 		margin-bottom: 1em;
 		/* text-transform: uppercase; */
@@ -72,7 +75,7 @@ font-family: 'Ubuntu', sans-serif;
 		h6{
 font-family: 'Ubuntu', sans-serif;
 		color: inherit;
-		font-weight: 300;
+		font-weight: 400;
 		line-height: 1.6em;
 		margin-bottom: 0.5em;
 		font-size: 1.2em;
@@ -635,7 +638,7 @@ font-family: 'Ubuntu', sans-serif;
 	}
 
 		#header h1 {
-			font-weight: 900;
+			font-weight: 500;
 			margin: 0;
 		}
 
@@ -812,11 +815,11 @@ font-family: 'Ubuntu', sans-serif;
 	}
 
 		#banner .inner {
-			-moz-animation: reveal-banner 0.5s 0.25s ease-in-out;
-			-webkit-animation: reveal-banner 0.5s 0.25s ease-in-out;
-			-o-animation: reveal-banner 0.5s 0.25s ease-in-out;
-			-ms-animation: reveal-banner 0.5s 0.25s ease-in-out;
-			animation: reveal-banner 0.5s 0.25s ease-in-out;
+			-moz-animation: reveal-banner 1s 0.25s ease-in-out;
+			-webkit-animation: reveal-banner 1s 0.25s ease-in-out;
+			-o-animation: reveal-banner 1s 0.25s ease-in-out;
+			-ms-animation: reveal-banner 1s 0.25s ease-in-out;
+			animation: reveal-banner 1s 0.25s ease-in-out;
 			-moz-animation-fill-mode: forwards;
 			-webkit-animation-fill-mode: forwards;
 			-o-animation-fill-mode: forwards;
@@ -842,7 +845,7 @@ font-family: 'Ubuntu', sans-serif;
 					border-bottom: solid 1px;
 					border-top: solid 1px;
 					font-size: 2.5em;
-					font-weight: 900;
+					font-weight: 500;
 					letter-spacing: 0.2em;
 					margin: 0;
 					padding-left: 0.05em;
